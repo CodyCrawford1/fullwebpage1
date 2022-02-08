@@ -113,7 +113,7 @@ body {
 
   /* Newsletter */
   #newsletter {
-      background-color: 2d2b3e;
+      background-color: #2d2b3e;
       padding: 15px;
       color: #e6e6e6;
   }
@@ -161,4 +161,21 @@ i {
 .fa-js {
     color: #f3df50;
 }
+
+#about {
+    background-color: #2d2b3e;
+}
   
+#about > .container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-column-gap: 50px;
+}
+
+#about .main-col {
+    color: #fff;
+}
+
+#about .sidebar {
+    margin-top: 10px;
+}
